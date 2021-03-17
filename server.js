@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
-
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+app.use(bodyParser.json())
 
 const mockUserData=[
     {name:'Mark'},
@@ -42,22 +41,6 @@ app.post('/login', function(req,res){
         })
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
